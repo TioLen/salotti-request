@@ -1,6 +1,8 @@
 const botaoEnviar = document.querySelector("#btnEnviar");
 const botaoExcluir = document.querySelector("#btnExcluir");
+const botaoReload = document.querySelector("#btnReload");
 const caixa = document.querySelector(".caixa");
+const imagem = document.querySelector("img");
 
 botaoEnviar.addEventListener("click", function () {
 
@@ -17,5 +19,13 @@ botaoEnviar.addEventListener("click", function () {
 });
 
 botaoExcluir.addEventListener("click", function () {
+
+    imagem.src = "./img/ogog.png";
+    botaoEnviar.style.display = "none";
+    botaoReload.style.display = "inline-block";
+
+});
+
+botaoReload.addEventListener("click", function () {
     location.reload();
 });
