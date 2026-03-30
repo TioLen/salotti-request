@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+h1 {
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Estilo Base dos Botões */
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Botão Enviar (Sucesso) */
+.success {
+    background-color: #10b981;
+    color: white;
+}
+
+.success:hover {
+    background-color: #059669;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+/* Botão Excluir (Perigo) */
+.danger {
+    background-color: #ef4444;
+    color: white;
+}
+
+.danger:hover {
+    background-color: #dc2626;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
