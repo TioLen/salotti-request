@@ -1,22 +1,48 @@
-:root{
-    
-}
-
-body{
+body {
+    color: white;
+    text-align: center;
     font-family: Arial;
-    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 81%, rgb(252, 176, 69) 100%);
 }
 
-button{
+.caixa {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+
+}
+
+#btnReload {
+    color: #fff;
+    display: none;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+img {
+    width: 350px;
+    margin: 15px auto;
+    display: block;
+}
+
+button {
     padding: 10px;
     border: none;
     cursor: pointer;
 }
-.success{
+
+.success {
     background-color: green;
     color: white;
 }
-.danger{
+
+.danger {
     background-color: red;
     color: white;
 }
