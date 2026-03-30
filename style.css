@@ -1,5 +1,5 @@
 :root{
-    
+    --success:green;
 }
 
 body{
@@ -13,10 +13,11 @@ button{
     cursor: pointer;
 }
 .success{
-    background-color: green;
+    background-color: var(--success);
     color: white;
 }
 .danger{
     background-color: red;
     color: white;
 }
+
