@@ -1,22 +1,34 @@
 :root{
-    
+    --color-success: #2ecc71;
+    --color-danger: #e74c3c;
+    --color-bg: #f4f4f4;
+    --color-text-light: #ffffff;
 }
 
 body{
-    font-family: Arial;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    background-color: var(--color-bg);
+    margin: 0;
 }
 
 button{
-    padding: 10px;
+    padding: 10px 16px;
     border: none;
     cursor: pointer;
+    border-radius: 6px;
+    transition: opacity 0.2s ease;
 }
+
+button:hover{
+    opacity: 0.85;
+}
+
 .success{
-    background-color: green;
-    color: white;
+    background-color: var(--color-success);
+    color: var(--color-text-light);
 }
+
 .danger{
-    background-color: red;
-    color: white;
+    background-color: var(--color-danger);
+    color: var(--color-text-light);
 }
