@@ -1,0 +1,38 @@
+:root{
+    --cor-fundo: #f4f4f4;
+    --cor-verde: #28a745;
+    --cor-vermelho: #dc3545;
+    --cor-branco: #ffffff;
+    --cor-preto: #000000;
+}
+
+body{
+    font-family: Arial;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+button{
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    
+}
+.success{
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+}
+.success:hover{
+    transform: scale(1.05);
+    box-shadow: 0, 6px 15px rgb(0, 0, 0);
+}
+.danger{
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+}
+.danger:hover{
+    transform: scale(1.05);
+    box-shadow: 0, 6px 15px rgb(0, 0, 0);
+}
