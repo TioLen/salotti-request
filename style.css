@@ -1,22 +1,47 @@
-:root{
-    
-}
-
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial;
-    background-color: #f4f4f4;
 }
 
-button{
+:root {
+    --color-verde: #28a745;
+    --color-vermelho: #C00606;
+    --color-branco: #ffff;
+    --color-cinza: #808080;
+    --color-azul: #1E3A8A;
+}
+
+body {
+    background-color: var(--color-branco);
+}
+
+header {
+    background: var(--color-azul);
+    color: var(--color-branco);
+    text-align: center;
+    padding: 32px 0 24px 0;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 8px rgba(12, 29, 74, 0.12);
+}
+
+#btnSection {
+    text-align: center;
+}
+
+button {
     padding: 10px;
     border: none;
     cursor: pointer;
 }
-.success{
-    background-color: green;
-    color: white;
+
+.success {
+    background-color: var(--color-verde);
+    color: var(--color-branco);
 }
-.danger{
-    background-color: red;
-    color: white;
+
+.danger {
+    background-color: var(--color-vermelho);
+    color: var(--color-branco);
 }
