@@ -7,7 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: black;
+    background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 81%, rgb(252, 176, 69) 100%);
 
 }
 
@@ -17,7 +17,7 @@ body {
     border-radius: 20px;
     padding: 10px;
     position: relative;
-    background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 81%, rgb(252, 176, 69) 100%);
+
 }
 
 img {
