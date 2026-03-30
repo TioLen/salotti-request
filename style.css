@@ -1,5 +1,6 @@
 :root{
-    
+    --assent: #28e117;
+    --assent2: #000000;
 }
 
 body{
@@ -12,11 +13,11 @@ button{
     border: none;
     cursor: pointer;
 }
-.success{
-    background-color: green;
-    color: white;
+.successo{
+    background-color: var(--assent);
+    color: var(--assent2);
 }
 .danger{
     background-color: red;
-    color: white;
+    color: var(--assent2);
 }
