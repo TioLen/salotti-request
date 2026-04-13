@@ -1,1 +1,1 @@
-console.log("app rodando tranquilo");
+console.log("app rodando");
