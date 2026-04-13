@@ -2,10 +2,16 @@ const btnEnviar = document.querySelector("#btnEnviar");
 
 const btnCancelar = document.querySelector("#btnCancelar");
 
+    
+
 if (btnEnviar) {
     btnEnviar.addEventListener("click", function() {
-        alert(" Sucesso! Sua solicitação foi enviada.");
+        console.log("%c Transmissão Iniciada...", "color: #00f2ff; font-weight: bold;");
+        alert("Acesso autorizado. Sistema carregando...");
     });
+    // btnEnviar.addEventListener("click", function() {
+    //     alert(" Sucesso! Sua solicitação foi enviada.");
+    // });
 }
 
 if (btnCancelar) {
